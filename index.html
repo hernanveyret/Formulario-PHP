@@ -1,0 +1,33 @@
+<!DOCTYE html>
+<html lang="es">
+<head>
+
+	<title>Formularios</title>
+	<link rel="stylesheet" href="estilos.css" type="text/css" />
+	
+</head>
+
+<body>
+
+		<section>
+			<div id="formulario">
+				<h1>FORMULARIO</h1>			
+		
+					<form action="envioFormulario.php" method="post" enctype="multipart/form-data">
+						
+						<input type="text" name="nombre" placeholder="Nombre" required />
+						<input type="text" name="apellido" placeholder="Apellido" required />
+						<input type="text" name="edad" placeholder="Edad"/>
+						<input type="email" name="correo" placeholder="Mail" />
+						<input type="tel" name="telefono" placeholder="Telefono" />		
+						<input type="text" name="nacionalidad" placeholder="Nacionalidad" />
+						<textarea rows="20" cols="55" type="text" name="mensaje" placeholder="Escriba aqui"></textarea>
+						<button type="submit">Enviar</button></div>
+					
+			</div>
+						
+					</form>
+		
+		</section>
+
+</html>
